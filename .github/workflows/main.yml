@@ -40,7 +40,7 @@ jobs:
           print(platform.processor())
         shell: python
   build-on-windows:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - name: Powershell Directory
         run: Get-Location
