@@ -21,7 +21,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo $GITHUB_REPOSITORY
-          echo "${{ github }}"
+          echo "${{ github.* }}"
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Run python commands
